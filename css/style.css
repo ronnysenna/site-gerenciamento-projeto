@@ -178,3 +178,24 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
+    background-color: transparent; /* Remover a cor de fundo */
+    border: none; /* Remover a borda */
+    cursor: pointer;
+    padding: 0; /* Remover o padding */
+}
+
+#back-to-top img {
+    width: 35px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 35px;
+}
+
+#back-to-top.show {
+    display: block;
+}
+
