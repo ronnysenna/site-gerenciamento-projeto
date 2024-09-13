@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial,sans-serif;
     color: #333;
     background-color: #f4f4f4;
     line-height: 1.6;
@@ -34,7 +34,7 @@ header {
     color: #fff;
     font-size: 1.2em;
     padding: 10px 20px;
-    transition: background-color 0.3s ease;
+    transition: background-color .5s ease;
 }
 
 .topnav a:hover {
