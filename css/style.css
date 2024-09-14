@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial,sans-serif;
+     font-family: "SUSE", system-ui;
     color: #333;
     background-color: #f4f4f4;
     line-height: 1.6;
@@ -20,26 +20,29 @@ a {
 /* Menu de Navegação no topo */
 header {
     background-color: #2c3e50;
-    padding: 10px;
+    padding: 5px;
 }
 
 .topnav {
     display: flex;
     justify-content: center;
     background-color: #2c3e50;
-    gap: 30px;
+    gap: 10px;
+    font-family: "SUSE", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .topnav a {
     color: #fff;
     font-size: 1.2em;
-    padding: 10px 20px;
+    padding: 10px 30px;
     transition: background-color .5s ease;
 }
 
 .topnav a:hover {
-    background-color: #34495e;
-    border-radius: 5px;
+    background-color: #1a222b;
+    border-radius: 3px;
 }
 
 /* Estilos principais */
@@ -66,8 +69,8 @@ main {
 .section {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .section img {
@@ -82,7 +85,7 @@ main {
 
 .text-content h2 {
     font-size: 2em;
-    color: #2c3e50;
+    color: #03315f;
     margin-bottom: 20px;
 }
 
@@ -90,9 +93,17 @@ main {
     list-style: none;
     padding: 0;
 }
+.text-content ol {
+    margin-left: 50px;
+    font-size: large;
+
+}
+.text-content strong{
+    font-size: large;
+}
 
 .text-content li {
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
     border-radius: 5px;
     padding: 10px 15px;
     margin-bottom: 10px;
@@ -140,7 +151,7 @@ footer {
 }
 
 .social-icons {
-    margin-top: 10px;
+    margin: 20px;
 }
 
 .social-icons a {
@@ -159,6 +170,13 @@ footer {
 
 .social-icons a:hover {
     transform: scale(1.1);
+}
+
+.rodape p {
+    text-align: center;
+    color: #e0e0e0;
+    background-color: #333;
+margin: auto;
 }
 
 /* Responsividade */
